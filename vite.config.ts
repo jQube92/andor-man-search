@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: "./docs",
   },
-  base: "/andor-man-search/",
+  base: "/andor-man-search",
 });

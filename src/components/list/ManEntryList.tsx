@@ -37,7 +37,10 @@ const ManEntryList: FunctionComponent<object> = () => {
         <div className="col">
           <EntryTitle entry={entry} />
           <div style={{ marginTop: "1rem" }}>
-            {truncate(entry.content, 300)}
+            {truncate(
+              _.isNil(entry.content) ? "<keine Beschreibung>" : entry.content,
+              300
+            )}
           </div>
         </div>
         <div

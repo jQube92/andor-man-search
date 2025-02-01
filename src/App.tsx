@@ -9,6 +9,7 @@ function App() {
 			<Route path="/andor-man-search/#/manual-entries" element={<Navigate to={"/andor-man-search/#/manual-entries"} />} />
 			<Route path="/andor-man-search/#/manual-entries" element={<ManEntryList />} />
 			<Route path="/manual-entries/:entryId" element={<ManEntryDetails />} />
+			<Route path="*" element={<div>not-found </div>} />
 		</Routes>
 	);
 }

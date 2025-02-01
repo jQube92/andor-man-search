@@ -33,10 +33,7 @@ const ManEntryDetails: FunctionComponent<ManEntryDetailsProps> = (props) => {
 	return (
 		<>
 			<EntryTitle entry={entry} />
-			<h2>Beschreibung</h2>
-			<div>{entry.content}</div>
-			<h2>Bilder</h2>
-			<div className="w-full">{images()}</div>
+			<div className="w-full mt-4">{images()}</div>
 		</>
 	);
 };

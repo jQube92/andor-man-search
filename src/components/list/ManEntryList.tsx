@@ -27,16 +27,11 @@ const ManEntryList: FunctionComponent<object> = () => {
 		}
 	}, [searchText]);
 
-	function truncate(str: string, n: number) {
-		return str.length > n ? str.slice(0, n - 1) + "..." : str;
-	}
-
 	const itemTemplate = (entry: ManualData, index: number) => {
 		return (
 			<div className="grid py-2" key={index}>
 				<div className="col">
 					<EntryTitle entry={entry} />
-					<div style={{marginTop: "1rem"}}>{truncate(_.isNil(entry.content) ? "<keine Beschreibung>" : entry.content, 300)}</div>
 				</div>
 				<div className="col-fixed flex flex-row-reverse align-items-center" style={{width: "4rem"}}>
 					<Button icon="pi pi-chevron-right" rounded outlined onClick={() => navigate(`/manual-entries/${entry.id}`)} />

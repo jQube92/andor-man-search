@@ -10,7 +10,7 @@ import {BrowserRouter} from "react-router";
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
 		<PrimeReactProvider>
-			<BrowserRouter basename="/">
+			<BrowserRouter basename="/andor-man-search">
 				<App />
 			</BrowserRouter>
 		</PrimeReactProvider>

@@ -10,7 +10,7 @@ import {HashRouter} from "react-router";
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
 		<PrimeReactProvider>
-			<HashRouter basename="/andor-man-search">
+			<HashRouter basename="/">
 				<App />
 			</HashRouter>
 		</PrimeReactProvider>

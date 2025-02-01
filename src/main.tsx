@@ -10,7 +10,7 @@ import {HashRouter, Route, Routes} from "react-router";
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
 		<PrimeReactProvider>
-			<HashRouter basename="/andor-man-search">
+			<HashRouter>
 				<Routes>
 					<Route path="/" element={<App />} />
 					<Route path="/page1" element={<div>page2</div>} />

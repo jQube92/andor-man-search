@@ -34,7 +34,7 @@ const ManEntryList: FunctionComponent<object> = () => {
 					<EntryTitle entry={entry} />
 				</div>
 				<div className="col-fixed flex flex-row-reverse align-items-center" style={{width: "4rem"}}>
-					<Button icon="pi pi-chevron-right" rounded outlined onClick={() => navigate(`/manual-entries/${entry.id}`)} />
+					<Button icon="pi pi-search" rounded outlined onClick={() => navigate(`/manual-entries/${entry.id}`)} />
 				</div>
 			</div>
 		);

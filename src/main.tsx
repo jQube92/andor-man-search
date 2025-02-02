@@ -7,6 +7,7 @@ import "primereact/resources/themes/lara-light-cyan/theme.css";
 import {HashRouter, Navigate, Route, Routes} from "react-router";
 import ManEntryList from "./components/list/ManEntryList.tsx";
 import ManEntryDetailsWrapper from "./components/details/ManEntryDetailsWrapper.tsx";
+import "primeicons/primeicons.css";
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>

@@ -150,7 +150,7 @@ const data: ManualData[] = [
 	},
 	{
 		id: "gear",
-		title: "Ausrüstungsgegenstände",
+		title: "(Ausrüstungs-) Gegenstände",
 		images: ["gear-chips-0.png"],
 		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`],
 	},

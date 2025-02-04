@@ -7,9 +7,46 @@ export type ManualData = {
 };
 
 const BASE_GAME_ACCOMPANYING_BOOKLET: string = "Begleitheft Orginalspiel";
+const NORTH_MANUAL: string = "Anleitung - Die Reise in den Norden";
 // const BASE_GAME_FAST_GUIDE: string = "Losspiel-Anleitung";
 
 const data: ManualData[] = [
+	{
+		id: "sailing",
+		title: "Segeln",
+		images: ["sailing-0.png"],
+		source: [`${NORTH_MANUAL}, S. 3`],
+	},
+	{
+		id: "change-course",
+		title: "Kurs ändern",
+		images: ["change-course-0.png"],
+		source: [`${NORTH_MANUAL}, S. 3`],
+	},
+	{
+		id: "leave-enter-ship",
+		title: "Von/An Bord gehen",
+		images: ["leave-enter-board-0.png"],
+		source: [`${NORTH_MANUAL}, S. 3`],
+	},
+	{
+		id: "boats",
+		title: "Boote",
+		images: ["boats-0.png"],
+		source: [`${NORTH_MANUAL}, S. 3`],
+	},
+	{
+		id: "special-fields-north",
+		title: "Meeresfelder, Landfelder, Klippenfelder, Angrenzende Felder",
+		images: ["special-fields-ridn-0.png"],
+		source: [`${NORTH_MANUAL}, S. 3`],
+	},
+	{
+		id: "ship-board",
+		title: "Auf der Shiffstafel",
+		images: ["ship-board-0.png"],
+		source: [`${NORTH_MANUAL}, S. 3`],
+	},
 	{
 		id: "gors",
 		title: "Gor",
@@ -223,7 +260,7 @@ const data: ManualData[] = [
 	{
 		id: "golden-shields",
 		title: "Die goldenen Schilde",
-		images: ["golden-shields-0.png", "golden-shields-chips-0.png"],
+		images: ["golden-shields-0.png"],
 		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 3`],
 	},
 	{

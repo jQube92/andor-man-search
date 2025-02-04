@@ -15,15 +15,15 @@ const ManEntryList: FunctionComponent<object> = () => {
 
 	useEffect(() => {
 		if (searchText === "") {
-			setEntries(data);
+			setEntries(_.sortBy(data, ["title"]));
 		} else {
 			const result = _.filter(data, (entry: ManualData) => {
-				const titleParsed = _.toLower(_.trim(entry.title));
-				const result = titleParsed.includes(searchText);
+				const titleParsed = normalizeText(entry.title);
+				const result = titleParsed.includes(normalizeText(searchText));
 				return result;
 			});
-
-			setEntries(result);
+			const resultSorted = _.sortBy(result, ["title"]);
+			setEntries(resultSorted);
 		}
 	}, [searchText]);
 
@@ -72,5 +72,9 @@ const ManEntryList: FunctionComponent<object> = () => {
 		</>
 	);
 };
+
+function normalizeText(text: string): string {
+	return _.toLower(_.trim(text));
+}
 
 export default ManEntryList;

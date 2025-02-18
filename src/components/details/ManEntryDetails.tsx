@@ -16,7 +16,7 @@ const ManEntryDetails: FunctionComponent<ManEntryDetailsProps> = (props) => {
 			return (
 				<Image
 					key={image}
-					src={`/andor-man-search/${image}`}
+					src={`/andor-man-search${image}`}
 					alt={entry.title}
 					width="100%"
 					preview

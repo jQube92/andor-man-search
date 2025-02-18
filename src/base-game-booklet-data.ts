@@ -139,8 +139,8 @@ const baseGameBookletData: ManualData[] = [
 	{
 		id: "gear",
 		title: "(Ausrüstungs-) Gegenstände",
-		images: ["/og-booklet/gear-i0.png"],
-		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`],
+		images: ["/og-booklet/gear-i0.png", "/gear-card-base-game/gear-card-i0.png"],
+		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`, GEAR_CARD_BASE_GAME],
 	},
 	{
 		id: "creature-platelets",
@@ -193,8 +193,8 @@ const baseGameBookletData: ManualData[] = [
 	{
 		id: "witch",
 		title: "Hexe",
-		images: ["/og-booklet/witch-rt0.png", "/og-booklet/witch-i0.png"],
-		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 3`],
+		images: ["/og-booklet/witch-rt0.png", "/og-booklet/witch-i0.png", "/gear-card-base-game/gear-card-i0.png"],
+		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 3`, GEAR_CARD_BASE_GAME],
 	},
 	{
 		id: "thorald",
@@ -217,32 +217,32 @@ const baseGameBookletData: ManualData[] = [
 	{
 		id: "helmet",
 		title: "Helm",
-		images: ["/og-booklet/helmet-rt0.png", "/og-booklet/gear-i0.png"],
-		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1/3`],
+		images: ["/og-booklet/helmet-rt0.png", "/og-booklet/gear-i0.png", "/gear-card-base-game/gear-card-i0.png"],
+		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1/3`, GEAR_CARD_BASE_GAME],
 	},
 	{
 		id: "shield",
 		title: "Schild",
-		images: ["/og-booklet/gear-i0.png"],
-		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`],
+		images: ["/og-booklet/gear-i0.png", "/gear-card-base-game/gear-card-i0.png"],
+		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`, GEAR_CARD_BASE_GAME],
 	},
 	{
 		id: "bow",
 		title: "Bogen",
-		images: ["/og-booklet/gear-i0.png"],
-		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`],
+		images: ["/og-booklet/gear-i0.png", "/gear-card-base-game/gear-card-i0.png"],
+		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`, GEAR_CARD_BASE_GAME],
 	},
 	{
 		id: "falcon",
 		title: "Falke",
-		images: ["/og-booklet/gear-i0.png"],
-		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`],
+		images: ["/og-booklet/gear-i0.png", "/gear-card-base-game/gear-card-i0.png"],
+		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`, GEAR_CARD_BASE_GAME],
 	},
 	{
 		id: "drinking-hose",
 		title: "Trinkschlauch",
-		images: ["/og-booklet/gear-i0.png"],
-		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`],
+		images: ["/og-booklet/gear-i0.png", "/gear-card-base-game/gear-card-i0.png"],
+		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`, GEAR_CARD_BASE_GAME],
 	},
 	{
 		id: "telescope",
@@ -253,8 +253,8 @@ const baseGameBookletData: ManualData[] = [
 	{
 		id: "which-drank",
 		title: "Trank der Hexe",
-		images: ["/og-booklet/gear-i0.png"],
-		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`],
+		images: ["/og-booklet/gear-i0.png", "/gear-card-base-game/gear-card-i0.png"],
+		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`, GEAR_CARD_BASE_GAME],
 	},
 	{
 		id: "checklist",

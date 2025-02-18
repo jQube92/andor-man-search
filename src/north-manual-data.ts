@@ -18,7 +18,7 @@ export const northManualData: ManualData[] = [
 	{
 		id: "leave-enter-ship",
 		title: "Von/An Bord gehen",
-		images: ["/north-manual/leave-enter-board-rt0.png"],
+		images: ["/north-manual/leave-enter-ship-rt0.png"],
 		source: [`${NORTH_MANUAL}, S. 3`],
 	},
 	{

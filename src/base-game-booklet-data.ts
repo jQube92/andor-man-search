@@ -1,6 +1,7 @@
 import {ManualData} from "./man-data";
 
 const BASE_GAME_ACCOMPANYING_BOOKLET: string = "Begleitheft - Orginalspiel";
+const GEAR_CARD_BASE_GAME: string = "Ausrüstungstafel Basisspiel";
 
 const baseGameBookletData: ManualData[] = [
 	{
@@ -168,7 +169,7 @@ const baseGameBookletData: ManualData[] = [
 	{
 		id: "farmers",
 		title: "Bauern",
-		images: ["/og-booklet/farmers-0.png", "/og-booklet/farmers-chips-0.png"],
+		images: ["/og-booklet/farmers-rt0.png", "/og-booklet/farmers-i0.png"],
 		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 3`],
 	},
 	{
@@ -246,8 +247,8 @@ const baseGameBookletData: ManualData[] = [
 	{
 		id: "telescope",
 		title: "Fernrohr",
-		images: ["/og-booklet/gear-i0.png"],
-		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`],
+		images: ["/og-booklet/gear-i0.png", "/gear-card-base-game/gear-card-i0.png"],
+		source: [`${BASE_GAME_ACCOMPANYING_BOOKLET}, S. 1`, GEAR_CARD_BASE_GAME],
 	},
 	{
 		id: "which-drank",

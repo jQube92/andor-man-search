@@ -2,7 +2,7 @@ import {ManualData} from "./man-data";
 
 const NORTH_BOOKLET: string = "Anleitung - Die Reise in den Norden";
 
-export const northManualData: ManualData[] = [
+const northBookletData: ManualData[] = [
 	{
 		id: "small-cards-north",
 		title: "Kleine Karten (Die Reise in den Norden)",
@@ -412,3 +412,5 @@ export const northManualData: ManualData[] = [
 		source: [`${NORTH_BOOKLET}, S. 8`],
 	},
 ];
+
+export default northBookletData;

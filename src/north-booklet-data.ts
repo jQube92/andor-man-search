@@ -305,7 +305,7 @@ const northBookletData: ManualData[] = [
 	},
 	{
 		id: "ship-movement",
-		title: "Shiffsbewegung",
+		title: "Schiffsbewegung",
 		images: ["/north-booklet/ship-movement-rt0.png"],
 		source: [`${NORTH_BOOKLET}, S. 4`],
 	},

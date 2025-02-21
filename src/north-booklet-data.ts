@@ -143,6 +143,24 @@ const northBookletData: ManualData[] = [
 		source: [`${NORTH_BOOKLET}, S. 2`],
 	},
 	{
+		id: "nerax",
+		title: "Nerax",
+		images: ["/north-booklet/creatures-i0.png"],
+		source: [`${NORTH_BOOKLET}, S. 2`],
+	},
+	{
+		id: "sea-troll",
+		title: "Meerestrolle",
+		images: ["/north-booklet/creatures-i0.png"],
+		source: [`${NORTH_BOOKLET}, S. 2`],
+	},
+	{
+		id: "arrog",
+		title: "Arrogs",
+		images: ["/north-booklet/creatures-i0.png"],
+		source: [`${NORTH_BOOKLET}, S. 2`],
+	},
+	{
 		id: "north-fog-platelets",
 		title: "Nebelplättchen (Die Reise in den Norden)",
 		images: ["/north-booklet/north-fog-platelets-i0.png"],

@@ -4,6 +4,24 @@ const NORTH_BOOKLET: string = "Begleitheft - Die Reise in den Norden";
 
 const northBookletData: ManualData[] = [
 	{
+		id: "card-required-material",
+		title: "Karte 'Benötigtes Material aus dem Grundspiel'",
+		images: ["/north-booklet/card-required-material-north-rt0.png"],
+		source: [`${NORTH_BOOKLET}, S. 1`],
+	},
+	{
+		id: "the-hero-dwarf",
+		title: "Der Held Zwerg (Die Reise in den Norden)",
+		images: ["/north-booklet/north-dwarf-rt0.png"],
+		source: [`${NORTH_BOOKLET}, S. 1`],
+	},
+	{
+		id: "coat-of-arms",
+		title: "Die Heldenwappen",
+		images: ["/north-booklet/coat-of-arms-rt0.png", "/north-booklet/coat-of-arms-i0.png"],
+		source: [`${NORTH_BOOKLET}, S. 1`],
+	},
+	{
 		id: "small-cards-north",
 		title: "Kleine Karten (Die Reise in den Norden)",
 		images: ["/north-booklet/small-cards-i0.png"],

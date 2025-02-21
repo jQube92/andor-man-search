@@ -34,10 +34,9 @@ const northBookletData: ManualData[] = [
 		source: [`${NORTH_BOOKLET}, S. 2`],
 	},
 	{
-		//TODO: Add rule from page 1
 		id: "sea-warrior",
-		title: "Heldentafel 'Seekrieger/Seekriegerin'",
-		images: ["/north-booklet/sea-warrior-i0.png"],
+		title: "Heldentafel 'Seekrieger bzw. Seekriegerin'",
+		images: ["/north-booklet/sea-warrior-i0.png", "/north-booklet/north-dwarf-rt0.png"],
 		source: [`${NORTH_BOOKLET}, S. 2`],
 	},
 	{
@@ -156,7 +155,7 @@ const northBookletData: ManualData[] = [
 	},
 	{
 		id: "wood-discs",
-		title: "Holzscheiben/Holzwürfel",
+		title: "Holzscheiben bzw,. Holzwürfel",
 		images: ["/north-booklet/north-discs-i0.png"],
 		source: [`${NORTH_BOOKLET}, S. 2`],
 	},

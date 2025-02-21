@@ -161,6 +161,24 @@ const northBookletData: ManualData[] = [
 		source: [`${NORTH_BOOKLET}, S. 2`],
 	},
 	{
+		id: "fire-spell",
+		title: "Zauber des Feuers",
+		images: ["/north-booklet/small-cards-i0.png"],
+		source: [`${NORTH_BOOKLET}, S. 2`],
+	},
+	{
+		id: "tower-spell",
+		title: "Zauber des Turms",
+		images: ["/north-booklet/small-cards-i0.png"],
+		source: [`${NORTH_BOOKLET}, S. 2`],
+	},
+	{
+		id: "contract-cards",
+		title: "Auftragskarten",
+		images: ["/north-booklet/small-cards-i0.png"],
+		source: [`${NORTH_BOOKLET}, S. 2`],
+	},
+	{
 		id: "north-fog-platelets",
 		title: "Nebelplättchen (Die Reise in den Norden)",
 		images: ["/north-booklet/north-fog-platelets-i0.png"],
@@ -294,7 +312,7 @@ const northBookletData: ManualData[] = [
 	},
 	{
 		id: "wind-and-storm-cards",
-		title: "Windkarten/Sturmkarten",
+		title: "Windkarten bzw. Sturmkarten",
 		images: ["/north-booklet/wind-and-storm-cards-rt0.png", "/north-booklet/small-cards-i0.png"],
 		source: [`${NORTH_BOOKLET}, S. 4`],
 	},

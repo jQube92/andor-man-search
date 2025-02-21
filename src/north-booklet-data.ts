@@ -1,6 +1,6 @@
 import {ManualData} from "./man-data";
 
-const NORTH_BOOKLET: string = "Anleitung - Die Reise in den Norden";
+const NORTH_BOOKLET: string = "Begleitheft - Die Reise in den Norden";
 
 const northBookletData: ManualData[] = [
 	{
@@ -85,7 +85,7 @@ const northBookletData: ManualData[] = [
 	{
 		id: "tars",
 		title: "Taren",
-		images: ["/north-booklet/misc-figures-i0.png", "/north-booklet/tar-portal-storm-i0.png"],
+		images: ["/north-booklet/misc-figures-i0.png", "/north-booklet/tar-portal-storm-shield-i0.png"],
 		source: [`${NORTH_BOOKLET}, S. 2`],
 	},
 	{
@@ -313,7 +313,13 @@ const northBookletData: ManualData[] = [
 	{
 		id: "gifts-of-the-north",
 		title: "Die Gaben des Nordens",
-		images: ["/north-booklet/gifts-of-the-north-rt0.png", "/north-booklet/gifts-of-the-north-i0.png"],
+		images: [
+			"/north-booklet/gifts-of-the-north-rt0.png",
+			"/north-booklet/gifts-of-the-north-i0.png",
+			"/north-booklet/marten-rt0.png",
+			"/north-booklet/nix-dust-rt0.png",
+			"/north-booklet/hadric-compass-rt0.png",
+		],
 		source: [`${NORTH_BOOKLET}, S. 5`],
 	},
 	{
@@ -324,7 +330,7 @@ const northBookletData: ManualData[] = [
 	},
 	{
 		id: "hadric-compass",
-		title: "Diebischer Streifenmarder",
+		title: "Der Hadrische Kompass",
 		images: ["/north-booklet/hadric-compass-rt0.png", "/north-booklet/gifts-of-the-north-i0.png"],
 		source: [`${NORTH_BOOKLET}, S. 5`],
 	},
@@ -337,7 +343,7 @@ const northBookletData: ManualData[] = [
 	{
 		id: "hadric-hourglass",
 		title: "Das Hadrische Stundenglas",
-		images: ["/north-booklet/hadric-hourglass-rt0.png", "/north-booklet/hour-glass-barrel-star-i0.png"],
+		images: ["/north-booklet/hadric-hour-glass-rt0.png", "/north-booklet/hour-glass-barrel-star-i0.png"],
 		source: [`${NORTH_BOOKLET}, S. 5`],
 	},
 	{
@@ -361,7 +367,13 @@ const northBookletData: ManualData[] = [
 	{
 		id: "magic-weapons",
 		title: "Die magischen Waffen",
-		images: ["/north-booklet/magic-weapons-rt0.png", "/north-booklet/magic-weapons-i0.png"],
+		images: [
+			"/north-booklet/magic-weapons-rt0.png",
+			"/north-booklet/magic-weapons-i0.png",
+			"/north-booklet/orweyns-hammer-rt0.png",
+			"/north-booklet/varlion-flame-sword-rt0.png",
+			"/north-booklet/varatans-helmet-rt0.png",
+		],
 		source: [`${NORTH_BOOKLET}, S. 5`],
 	},
 	{

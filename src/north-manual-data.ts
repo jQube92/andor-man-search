@@ -35,7 +35,7 @@ export const northManualData: ManualData[] = [
 	},
 	{
 		id: "ship-board",
-		title: "Auf der Shiffstafel",
+		title: "Auf der Schiffstafel",
 		images: ["/north-manual/ship-board-rt0.png"],
 		source: [`${NORTH_MANUAL}, S. 3`],
 	},
